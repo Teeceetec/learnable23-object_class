@@ -18,8 +18,8 @@ class Car {
       console.log(`the new company`);
     }
 
-    
-    getCompany() {
+
+     static getCompany() {
       console.log(`this car belongs to this company: ${this.company}`);
 
     }
